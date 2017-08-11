@@ -4,7 +4,7 @@
 Plugin Name: WooCommerce: Show Empty Categories
 Plugin URI: https://www.majemedia.com/plugins/woocommerce-show-empty-categories
 Description: Show empty WooCommerce categories on product archives when options are set to display categories
-Version: 1.1
+Version: 1.1.2
 Author: Maje Media LLC
 Author URI: https://www.majemedia.com
 Copyright: 2017

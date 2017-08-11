@@ -24,6 +24,9 @@ There are currently no options for extending this plugin.
 
 ## Changelog
 
+### 1.1.2
+* Updated main plugin file version
+
 ### 1.1.1
 * Updated README files
 

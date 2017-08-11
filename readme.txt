@@ -3,7 +3,7 @@ Contributors: majemedia
 Tags: woocommerce,categories,show empty,hide empty
 Requires at least: 4.8.1
 Tested up to: 4.8.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ Github project: https://github.com/MajeMediaLLC/woo-show-empty-categories
 4. Screenshot of WooCommerce Shop & product pages settings menu with correct options shown
 
 == Changelog ==
+= 1.1.2 =
+* Updated main plugin file version
+
 = 1.1.1 =
 * Updated README files
 
