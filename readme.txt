@@ -17,7 +17,7 @@ This plugin, along with proper WooCommerce settings, will display empty categori
 
 Additional insructions and extension tutorials: https://www.majemedia.com/2015/01/woocommerce-how-to-show-empty-categories/
 
-Github project: https://github.com/MajeMediaLLC/majemediaWCShowEmptyCategories
+Github project: https://github.com/MajeMediaLLC/woo-show-empty-categories
 
 == Installation ==
 1. Have WooCommerce installed and activated

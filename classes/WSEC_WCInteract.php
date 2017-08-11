@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  */
 
-class MMWCSEC_WCInteract {
+class WSEC_WCInteract {
 
 	public function __construct() {
 

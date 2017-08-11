@@ -4,24 +4,20 @@
 Plugin Name: WooCommerce: Show Empty Categories
 Plugin URI: https://www.majemedia.com/plugins/woocommerce-show-empty-categories
 Description: Show empty WooCommerce categories on product archives when options are set to display categories
-Version: 1.0
+Version: 1.1
 Author: Maje Media LLC
 Author URI: https://www.majemedia.com
 Copyright: 2017
-Text Domain: majemedia-wc-show-empty-cats
+Text Domain: woo-show-empty-categories
 Domain Path: /lang
-
+WooCommerce Min Version: 3.0
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-/*
- *
- */
-
-class majemediaWCShowEmptyCategories {
+class WooShowEmptyCategories {
 
 	private static $instance;
 	public         $plugin_url;
@@ -40,7 +36,8 @@ class majemediaWCShowEmptyCategories {
 
 		$this->set_class_vars();
 
-		$this::actions();
+		require "autoload.php";
+
 		$this::filters();
 
 	}
@@ -52,22 +49,10 @@ class majemediaWCShowEmptyCategories {
 
 	}
 
-	public static function activate() {
-
-	}
-
-	public static function deactivate() {
-
-	}
-
-	public static function actions() {
-
-	}
-
 	public static function filters() {
 
 		add_filter( 'woocommerce_product_subcategories_hide_empty', array(
-			'MMWCSEC_WCInteract',
+			'WSEC_WCInteract',
 			'hide_empty_categories',
 		), 10, 1 );
 
@@ -75,4 +60,4 @@ class majemediaWCShowEmptyCategories {
 
 }
 
-$majemediaWCShowEmptyCategories = majemediaWCShowEmptyCategories::get_instance();
+$WooShowEmptyCategories = WooShowEmptyCategories::get_instance();

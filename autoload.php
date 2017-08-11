@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Slash in front
 $files_to_load = array(
-	// '/path/to/autoload/files',
+	'/classes/WSEC_WCInteract.php',
 );
 
 if( ! empty( $files_to_load ) ) {
