@@ -3,7 +3,7 @@ Contributors: majemedia
 Tags: woocommerce,categories,show empty,hide empty
 Requires at least: 4.8.1
 Tested up to: 4.8.1
-Stable tag: 1.0.0
+Stable tag: 1.1.1
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,7 @@ Requires WooCommerce 3.0+ (functionality updated in related code at this version
 This plugin, along with proper WooCommerce settings, will display empty categories on the main shop page and category landing pages.
 
 Additional insructions and extension tutorials: https://www.majemedia.com/2015/01/woocommerce-how-to-show-empty-categories/
+
 
 Github project: https://github.com/MajeMediaLLC/woo-show-empty-categories
 
@@ -33,6 +34,11 @@ Github project: https://github.com/MajeMediaLLC/woo-show-empty-categories
 4. Screenshot of WooCommerce Shop & product pages settings menu with correct options shown
 
 == Changelog ==
+= 1.1.1 =
+* Updated README files
+
+= 1.1 =
+* Updated files to coincide with WordPress.org plugin approval and slug assignment
 
 = 1.0.0: =
 * Created plugin
