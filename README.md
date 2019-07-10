@@ -39,6 +39,8 @@ Github project: https://github.com/MajeMediaLLC/woo-show-empty-categories
 There are currently no options for extending this plugin.
 
 ## Changelog
+### 1.1.4
+* Changed tested against WP Version cause I typo'd
 
 ### 1.1.3
 * Updated tested against WordPress
