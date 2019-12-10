@@ -2,9 +2,11 @@
 Contributors: majemedia
 Tags: woocommerce,categories,show empty,hide empty
 Requires at least: 4.3.2
-Tested up to: 5.2.2
+Tested up to: 5.3
 Requires PHP: 5.6
-Stable tag: 1.1.4
+Stable tag: 1.1.5
+WC requires at least: 2.6
+WC tested up to 3.8.1
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +36,9 @@ This plugin, along with proper WooCommerce settings, will display empty categori
 4. Screenshot of WooCommerce Shop & product pages settings menu with correct options shown
 
 == Changelog ==
+= 1.1.5 =
+* Updated tested to for WP and WC
+
 = 1.1.4 =
 * Changed Tested up to to 5.2.2 because typo
 
